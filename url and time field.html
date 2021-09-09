@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>html form fields and validation</title>
+    </head>
+    <body>
+        <h1>html form fields and validation</h1>
+        <form>
+            <p>
+                <label for="email_id">Email:</label>
+                <input type="email" name="email_id" id="email_id">
+            </p>
+           
+            <p>
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" required min="18" max="99">
+            </p>
+            <p>
+                <label for="dob">Date of birth:</label>
+                <input type="date" name="dob" id="dob">
+            </p>
+            <p>
+                <label for="price">Price range:</label>
+                <input type="range" name="price" id="price" min="1" max="1000" step="10">
+            </p>
+            <p>
+                <label for="website">url:</label>
+                <input type="url" name="website" id="website">
+            </p>
+            <p>
+                <label for="Time">appointment time</label>
+                <input type="time" name="Time" id="Time">
+            </p>
+            <p>
+                <label for="Week">paid holidays week</label>
+                <input type="week" name="Week" id="Week">     
+            </p>
+            <p>
+                <label for="Search">job search</label>
+                <input type="search" name="Search" id="Search">       
+            </p>
+            <p>
+                <input type="submit" name="loginbutton" value="submit info">
+            </p>
+        </form>
+    </body>
+</html>
